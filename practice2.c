@@ -24,5 +24,6 @@ main()
 	printf("%d%%", NUMBER);                 /*'%%' can print out '%'.*/
 	printf("\"%d\"", NUMBER);               /*'\"' can print out '"'.*/
 	int number;                             
-	(void)scanf("[%*s %d]\n", &number);     //'%*' symbolizes skipping the intput.
+	(void)scanf("[%*s %d]\n", &number);     //'%*' symbolizes skipping the intput in the 'scanf()'.
+	printf("%*s",strlen(BLURB)+3,BLURB);    //'%*' can specify the field width in the 'printf()'.
 }
