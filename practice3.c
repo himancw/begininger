@@ -9,4 +9,8 @@ printf("MAKE CHINA\
   GREAT AGAIN!\n");                 //The codes of the last row are bound to follow the codes from the begining of next row.
 	
 printf("%d", a);
-} 
+
+int b,c,d;
+b = scanf("%d %d", &c, &d);         //The returned value of "scanf()" is assigned to the variate"b".
+printf("%d", b);
+}
