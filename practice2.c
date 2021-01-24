@@ -8,6 +8,7 @@ main()
 	printf("[%2s]\n", BLURB);               //'2' symbolizes two character length.
 	printf("[%24s]\n", BLURB);              //Defaulting right juastifing.
 	printf("[%023.9s]\n", BLURB);           /*'9' symbolizes the first nine characters in the string "BLURB".*/
+	printf("%d", 'd');
 	printf("[%30.9d]\n", NUMBER);           //Defaulting right juastifing.
 	printf("[%-30.9d]\n", NUMBER);          /*'-' symbolizes left justifing.*/
 	printf("[*% d*% d]\n", NUMBER, NUMBER); /*'% d'can generate "leading space".*/
