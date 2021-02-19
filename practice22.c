@@ -3,9 +3,13 @@ void meau(void);
 int fun(int x, int y);
 main()
 {
- int min = 1, max = 4;
+ int res;
  meau();
- printf("num=%d",fun(min, max));
+ while ((res=fun(1, 4)) != 4)
+ {
+	 printf("I like choice %d.\n",res);
+	 meau();
+ }
 }
 void meau()
 {
